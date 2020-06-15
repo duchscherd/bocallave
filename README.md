@@ -110,18 +110,18 @@ daemon and switches to the user/group of bocallave.
 There is currnetly only a single client, `bocallave.sh`, which is a
 shell script. I will add additional clients as needed.
 
-*Prerequisites*
+**Prerequisites**
 
 * openssl
 * tr
 * nc
 
-*Installation*
+**Installation**
 
 Just copy the script to your system and edit it to your
 needs. Currently, it has very limited functionallity.
 
-*Usage*
+**Usage**
 
 To use the bocallave.sh, just run it to send token to the server.
 
