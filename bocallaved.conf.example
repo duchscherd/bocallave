@@ -1,0 +1,10 @@
+[
+  {
+    "name": "ssh",
+    "command": "/usr/bin/sudo /usr/sbin/ipset add ssh ${src_ip} -exist",
+    "address": "0.0.0.0",
+    "port": 12345,
+    "secret": "123456789012345678901234567890123456789012345678901234567890"
+
+  }
+]
