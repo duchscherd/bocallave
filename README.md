@@ -142,6 +142,7 @@ Add rules to iptables:
 
     iptables -A INPUT -i eth0 -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT
     iptables -A INPUT -i eth0 -m set --match-set ssh src -p tcp -m tcp --dport 22 -m conntrack --ctstate NEW -j ACCEPT
+    iptables -A INPUT -i eth0 -p udp -m udp --dport 12345 -j ACCEPT
 
 Configure bocallave (/etc/bocallave.conf):
 
