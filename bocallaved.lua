@@ -78,12 +78,10 @@ do
 
       -- Close all filehandles
 
-      --[[
       local maxfd = 32
       local sysconf = posix.sysconf()
       if sysconf["OPEN_MAX"] then maxfd = sysconf["OPEN_MAX"] end
       for i=0,maxfd do posix.close(i) end
-      --]]
    
       -- Map logger levels to syslog levels
       
