@@ -21,11 +21,19 @@ could be used to issue any command on the server.
 
 * Small footprint
 * Simple language
-* I am learning lua language and wrting code help me learn the ins and outs of a lanugage.
+* Learning opportunity
+
+## Supported Lua Versions
+
+Version | Tested
+------- | ---------
+Lua 5.3 | :white_check_mark:
+Lua 5.2 | 
+Lua 5.1 | 
+LuaJit 2.0 | 
 
 ## Prerequisites
 
-* lua 5.x
 * luaposix
 * luaossl
 * luacjson
